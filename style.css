@@ -1,0 +1,347 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.bg-ey{
+  background-color: #000;
+}
+.font{
+  font-size: 16pt;
+  font-weight: bold;
+  
+}
+.font a{
+  font-size: 14pt;
+  text-decoration: none;
+  color: #fff;
+}
+.navbar-cream{
+  color:#FFDf6C;
+  font-weight: bold;
+  font-size: 20pt;
+  font-family: monospace;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.nav-bar a{
+  text-decoration: none;
+}
+.nav-link {
+  color: rgb(230, 187, 47);
+  display: block;
+  padding: .5rem 1rem;
+}
+.nav-link:hover{
+  color: #FFDf6C !important;
+}
+.navbar-cream:hover{
+  color: #dbbe54;
+  text-decoration: none;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: rgb(251 251 251);
+}
+.collapse ul{
+  text-align: right;
+}
+navbar-nav {
+  /*display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-left: 70%;*/
+  text-align: right;
+  margin-right: 0;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.form-control {
+  display: block;
+  width: 81%;
+  height: calc(1.5em + .75rem + 2px);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.btn-outline-success {
+  color: #FFDf6C;
+  border-color: #FFDf6C;
+}
+.btn-outline-success:hover {
+  color: #fff;
+  background-color: #FFDf6C;
+  border-color: #FFDf6C;
+}
+.navbar-nav {
+  text-align:left;
+  margin-right: 0;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.carousel-item img{
+  width: 500px;
+  height: 500px;
+}
+.cd:hover{
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+footer a i{
+  font-size: 36pt;
+  color:#fff;
+}
+footer a i:hover{
+  color: rgb(165, 164, 164);
+}
+footer a{
+  color: #fff;
+}
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  padding-top: 60px;
+}
+/* Modal Content/Box */
+.modal-content {
+  background-color: #202020;
+  margin: 5px auto; /* 15% from the top and centered */
+  border: 1px solid #888;
+  /*width: auto;  Could be more or less, depending on screen size */
+}
+hr{
+  background-color: #fff;
+}
+.btn-cl{
+  background-color:#FFDf6C ;
+  width: 100%;
+}
+.text-eg{
+  color: #FFDf6C;
+}
+.form-control{
+  width: 100%;
+}
+.cancel{
+  margin-left: 15px;
+  margin-right: 50%;
+  border: none;
+  border-radius: 5px;
+  padding: 7px;
+}
+.cancel:hover{
+  background-color: #FFDf6C;
+  color: #000;
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: rgb(252, 52, 52);
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+.img-dis{
+  width: 100%;
+  height: auto;
+}
+.border{
+  box-sizing: border-box;
+}
+.my-container{
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: 0;
+  margin-left: 10px;
+  box-sizing: border-box;
+}
+.num{
+  text-align: center;
+  width: 30px;
+  color: #ced4da;
+  font-size: 12pt;
+  margin: 0 10px;
+  padding: 0;
+  box-sizing: border-box;
+}
+.price{
+  font-size: 26pt;
+  font-weight: bold;
+}
+.ml-m{
+  margin-left: -20% !important;
+}
+.topic{
+  font-size: 11pt;
+  font-weight: bold;
+}
+.link{
+  font-size: 14pt;
+  text-decoration: none;
+  color: #fff;
+}
+.card1{
+  padding: 2rem 2rem 4rem;
+  background-color: rgb(214, 205, 205);
+  box-sizing: border-box;
+}
+ li{
+  list-style-type: none;
+}
+.box{
+  box-sizing: border-box;
+}
+.icon i{
+  font-size: 26pt;
+}
+.text-blue{
+  color: rgb(27, 12, 161);
+}
+a:hover{
+  text-decoration: none;
+}
+.fab.fa-instagram-square {
+  color: transparent;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+.text-fb{
+  color: #3b5998;
+}
+/*------------------------------signup------------------------------*/
+#hint{
+  display: none;
+  position: relative;
+}
+.valid{
+  color: green;
+}
+.valid::before{
+  
+}
+.invalid{
+  color: red;
+}
+.bg-red{
+  background-color: red;
+}
+
+.imgs{
+  width: 600px;
+  height: 400px;
+}
+/*------------------------------Popups------------------------------*/
+/* Popup container */
+.popup {
+  position: relative;
+ 
+  cursor: pointer;
+}
+
+/* Popup container - can be anything you want */
+.popup {
+  position: relative;
+  /*display: inline-block;*/
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  background-color: rgb(255, 0, 0);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  
+  
+  margin-left: 0px;
+}
+
+ /*Popup arrow 
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}*/
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+
+
+
+/*-------------------Meadia Queries----------------*/
+@media screen and (min-width: 992px) {
+  .mr1 {
+    margin-right: 10px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .fl {
+    float: left;
+  }
+}
+@media screen and (max-width: 992px) {
+  #m {
+    margin:1px
+  }
+}
+@media screen and (min-width: 992px) {
+  .ml-aut {
+    margin-left: auto;
+  }
+}
